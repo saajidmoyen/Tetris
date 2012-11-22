@@ -1,0 +1,41 @@
+Tetris
+by Saajid Moyen
+
+For my final CIS120 homework, I made everyone's 
+favorite puzzle/arcade/strategy game: Tetris.
+
+Game Overview:
+
+Tetris is played by moving different shapes of 
+blocks to the bottom of the playing field and
+trying to clear lines by filling them completely. 
+Clearing lines earns points, and the goal is to 
+rack up as high a score as possible. As more 
+lines are cleared, the level of the game 
+increases and the blocks move down faster and 
+faster.
+
+Controls:
+
+The game is played entirely with the arrow keys.
+Just press start to begin and use the left and
+right arrows to move the piece that is in play. 
+The up arrow is used to rotate the piece, and 
+the down arrow is a hard drop which instantly
+places the piece at the bottom of the playing
+field.
+
+Features:
+
+My version of Tetris keeps track of levels and
+speeds up the game after every 10 cleared lines.
+The number of lines that have been cleared and 
+the level of the game are always visible. 
+I followed the centralized spawn and rotation
+conventions from the real Tetris game, excluding
+the wall kicks. I also implemented a restart
+button along with the start button, so users do
+not have to close and restart the entire program
+to begin a new game. Finally, I drew in a grid 
+to help players visualize the final position
+of their tetrominoes when doing hard drops.
